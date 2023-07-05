@@ -2,6 +2,7 @@
 import Foundation
 import SwiftUI
 
+@available(iOS 15.0, *)
 struct SnapPointCalculator<State: SnapState> {
     struct SnapResult {
         let state: State
@@ -65,6 +66,7 @@ struct SnapPointCalculator<State: SnapState> {
 
 }
 
+@available(iOS 15.0, *)
 extension SnapPointCalculator {
     struct Input {
         let state: State

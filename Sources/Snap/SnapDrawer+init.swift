@@ -2,6 +2,7 @@
 import Foundation
 import SwiftUI
 
+@available(iOS 15.0, *)
 extension SnapDrawer where StateType == ModalSnapState {
 
     public init(state: Binding<StateType>,
@@ -47,6 +48,7 @@ extension SnapDrawer where StateType == ModalSnapState {
     
 }
 
+@available(iOS 15.0, *)
 extension SnapDrawer where StateType == ModalSnapState, Background == Color {
 
     public init(state: Binding<StateType>,
@@ -70,6 +72,7 @@ extension SnapDrawer where StateType == ModalSnapState, Background == Color {
 
 }
 
+@available(iOS 15.0, *)
 extension SnapDrawer where StateType == ModalSnapState, Background == BlurView {
 
     public init(state: Binding<StateType>,
@@ -91,6 +94,7 @@ extension SnapDrawer where StateType == ModalSnapState, Background == BlurView {
 
 }
 
+@available(iOS 15.0, *)
 extension SnapDrawer where StateType == OvercastSnapState {
 
     public init(state: Binding<StateType>,
@@ -141,6 +145,7 @@ extension SnapDrawer where StateType == OvercastSnapState {
 
 }
 
+@available(iOS 15.0, *)
 extension SnapDrawer where StateType == OvercastSnapState, Background == Color {
 
     public init(state: Binding<StateType>,
@@ -166,6 +171,7 @@ extension SnapDrawer where StateType == OvercastSnapState, Background == Color {
 
 }
 
+@available(iOS 15.0, *)
 extension SnapDrawer where StateType == OvercastSnapState, Background == BlurView {
 
     public init(state: Binding<StateType>,
@@ -189,6 +195,7 @@ extension SnapDrawer where StateType == OvercastSnapState, Background == BlurVie
 
 }
 
+@available(iOS 15.0, *)
 extension SnapDrawer where StateType == AppleMapsSnapState {
 
     public init(state: Binding<StateType>,
@@ -244,6 +251,7 @@ extension SnapDrawer where StateType == AppleMapsSnapState {
 
 }
 
+@available(iOS 15.0, *)
 extension SnapDrawer where StateType == AppleMapsSnapState, Background == Color {
 
     public init(state: Binding<StateType>,
@@ -271,6 +279,7 @@ extension SnapDrawer where StateType == AppleMapsSnapState, Background == Color 
 
 }
 
+@available(iOS 15.0, *)
 extension SnapDrawer where StateType == AppleMapsSnapState, Background == BlurView {
 
     public init(state: Binding<StateType>,
@@ -296,7 +305,7 @@ extension SnapDrawer where StateType == AppleMapsSnapState, Background == BlurVi
 }
 
 // Without State
-
+@available(iOS 15.0, *)
 extension SnapDrawer where StateType == ModalSnapState {
 
     public init(large: SnapPoint,
@@ -338,6 +347,7 @@ extension SnapDrawer where StateType == ModalSnapState {
 
 }
 
+@available(iOS 15.0, *)
 extension SnapDrawer where StateType == ModalSnapState, Background == Color {
 
     public init(large: SnapPoint,
@@ -359,6 +369,7 @@ extension SnapDrawer where StateType == ModalSnapState, Background == Color {
 
 }
 
+@available(iOS 15.0, *)
 extension SnapDrawer where StateType == ModalSnapState, Background == BlurView {
 
     public init(large: SnapPoint,
@@ -378,6 +389,7 @@ extension SnapDrawer where StateType == ModalSnapState, Background == BlurView {
 
 }
 
+@available(iOS 15.0, *)
 extension SnapDrawer where StateType == OvercastSnapState {
 
     public init(large: SnapPoint,
@@ -424,6 +436,7 @@ extension SnapDrawer where StateType == OvercastSnapState {
 
 }
 
+@available(iOS 15.0, *)
 extension SnapDrawer where StateType == OvercastSnapState, Background == Color {
 
     public init(large: SnapPoint,
@@ -447,6 +460,7 @@ extension SnapDrawer where StateType == OvercastSnapState, Background == Color {
 
 }
 
+@available(iOS 15.0, *)
 extension SnapDrawer where StateType == OvercastSnapState, Background == BlurView {
 
     public init(large: SnapPoint,
@@ -468,6 +482,7 @@ extension SnapDrawer where StateType == OvercastSnapState, Background == BlurVie
 
 }
 
+@available(iOS 15.0, *)
 extension SnapDrawer where StateType == AppleMapsSnapState {
 
     public init(large: SnapPoint,
@@ -519,6 +534,7 @@ extension SnapDrawer where StateType == AppleMapsSnapState {
 
 }
 
+@available(iOS 15.0, *)
 extension SnapDrawer where StateType == AppleMapsSnapState, Background == Color {
 
     public init(large: SnapPoint,
@@ -544,6 +560,7 @@ extension SnapDrawer where StateType == AppleMapsSnapState, Background == Color 
 
 }
 
+@available(iOS 15.0, *)
 extension SnapDrawer where StateType == AppleMapsSnapState, Background == BlurView {
 
     public init(large: SnapPoint,

@@ -2,6 +2,7 @@
 import Foundation
 import SwiftUI
 
+@available(iOS 15.0, *)
 public struct BlurView: UIViewRepresentable {
     public func makeUIView(context: UIViewRepresentableContext<BlurView>) -> UIView {
         let view = UIView(frame: .zero)
